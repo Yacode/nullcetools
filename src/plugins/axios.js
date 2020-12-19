@@ -1,3 +1,11 @@
+/*
+ * @Author: pi@nullce.com
+ * @Date: 2020-12-19 16:58:02
+ * @LastEditors: pi@nullce.com
+ * @LastEditTime: 2020-12-19 17:48:21
+ * @Description: file content
+ */
+
 import Vue from 'vue';
 import axios from 'axios';
 

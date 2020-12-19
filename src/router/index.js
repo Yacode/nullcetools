@@ -1,3 +1,10 @@
+/*
+ * @Author: pi@nullce.com
+ * @Date: 2020-12-19 16:54:14
+ * @LastEditors: pi@nullce.com
+ * @LastEditTime: 2020-12-19 18:50:57
+ * @Description: file content
+ */
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
@@ -9,6 +16,21 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
+  },
+  {
+    path: '/cest_query',
+    name: 'CESTQuery',
+    component: () => import('../views/CESTQuery.vue'),
+  },
+  {
+    path: '/acee_status_query',
+    name: 'ACEEStatusQuery',
+    component: () => import('../views/ACEEStatusQuery.vue'),
+  },
+  {
+    path: '/acee_sign_up',
+    name: 'ACEESignUp',
+    component: () => import('../views/ACEESignUp.vue'),
   },
   {
     path: '/about',
